@@ -90,8 +90,6 @@ button:hover {
 ol,
 ul {
   padding: 2rem 5rem;
-}
-ul {
   list-style: none;
 }
 li {
@@ -146,8 +144,38 @@ li {
 @media only screen and (max-width: 537px) {
   .report {
     width: 97%;
+    padding: 1rem 0rem;
+  }
+  .sub-head {
+    margin: 4.5rem 0 0 0;
+  }
+  .sec {
+    margin: 0;
   }
   ol {
-    padding-left: 2rem;
+    padding-left: 2.8rem;
+  }
+  li {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .sub-head h3 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 424px) {
+  .sub-head h3 {
+    font-size: 1.3rem;
+  }
+  .report {
+    width: 100%;
+  }
+  ol {
+    padding-left: 0.5rem;
+  }
+  li {
+    font-size: 1.2rem;
   }
 }
