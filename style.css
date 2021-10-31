@@ -52,14 +52,14 @@ h1 {
   /* background-color: rgb(88, 88, 88); */
   background-color: lightgray;
   flex: 1;
-  height: 100%;
+
   border-bottom-left-radius: 2rem;
 }
 .email {
   flex: 1;
   background-color: lightgray;
   /* background-color: rgb(88, 88, 88); */
-  height: 100%;
+
   border-bottom-right-radius: 2rem;
 }
 footer {
@@ -103,5 +103,40 @@ li {
   font-weight: bolder;
   border-bottom: 1px solid #333;
   padding-bottom: 1rem;
+}
+
+/* -------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .report {
+    width: 60rem;
+    margin-top: 10rem;
   }
-  
+  h1 {
+    font-size: 2.3rem;
+  }
+  .sub-head h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+  ol,
+  ul {
+    padding: 0;
+  }
+  li {
+    font-size: 1.3rem;
+  }
+  ol {
+    padding-left: 4rem;
+  }
+  ul {
+    padding-right: 2rem;
+  }
+}
+@media only screen and (max-width: 635px) {
+  .report {
+    width: 50rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+}
